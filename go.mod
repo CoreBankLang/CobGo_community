@@ -1,4 +1,4 @@
-module github.com/cobgo/cobgo-community
+module https://github.com/CoreBankLang/CobGo_community
 
 go 1.23.0
 
