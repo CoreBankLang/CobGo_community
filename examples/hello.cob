@@ -1,0 +1,19 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO.
+       AUTHOR. COBGO-EXAMPLES.
+       DATE-WRITTEN. 2024-01-01.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-NAME PIC X(20) VALUE 'World'.
+       01 WS-MESSAGE PIC X(50).
+
+       PROCEDURE DIVISION.
+       MAIN-PARAGRAPH.
+           MOVE 'Hello, ' TO WS-MESSAGE
+           STRING WS-MESSAGE DELIMITED BY SIZE
+                  WS-NAME DELIMITED BY SPACE
+                  '!' DELIMITED BY SIZE
+                  INTO WS-MESSAGE
+           DISPLAY WS-MESSAGE
+           STOP RUN.

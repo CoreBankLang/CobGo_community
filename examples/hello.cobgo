@@ -1,0 +1,10 @@
+// Hello World in CobGO DSL
+job HelloWorld {
+    var name string(50) = "World"
+    var message string(100)
+    
+    step Main {
+        message = "Hello, " + name + "!"
+        display(message)
+    }
+}

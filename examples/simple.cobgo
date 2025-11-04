@@ -1,0 +1,5 @@
+job Simple {
+    step Main {
+        display("Hello, World!")
+    }
+}
