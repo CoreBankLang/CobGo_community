@@ -1,0 +1,23 @@
+// Generated from COBOL: arithmetic.cob
+// Golden dataset for acceptance testing
+
+job ArithmeticOperations {
+    var firstNumber decimal(7,2) = 123.45
+    var secondNumber decimal(7,2) = 67.89
+    var resultAdd decimal(8,2)
+    var resultSub decimal(8,2)
+    var resultMult decimal(10,2)
+    var resultDiv decimal(8,2)
+
+    step Main {
+        resultAdd = firstNumber + secondNumber
+        resultSub = firstNumber - secondNumber
+        resultMult = firstNumber * secondNumber
+        resultDiv = firstNumber / secondNumber
+
+        display("Addition: " + string(resultAdd))
+        display("Subtraction: " + string(resultSub))
+        display("Multiplication: " + string(resultMult))
+        display("Division: " + string(resultDiv))
+    }
+}

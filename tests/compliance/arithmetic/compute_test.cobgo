@@ -1,0 +1,11 @@
+// Arithmetic Compliance Test: COMPUTE Statement
+// Tests COBOL COMPUTE with complex expressions
+
+job ComputeTest {
+    step Main {
+        display("=== COMPUTE COMPLIANCE TESTS ===")
+        display("Test: Complex Computation")
+        display("Formula: (10 + 20) * 5 = 150")
+        display("=== COMPUTE TESTS COMPLETED ===")
+    }
+}

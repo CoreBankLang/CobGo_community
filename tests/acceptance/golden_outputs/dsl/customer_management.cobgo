@@ -1,0 +1,57 @@
+// Generated from COBOL: customer_management.cob
+// Golden dataset for acceptance testing
+
+record CustomerRecord {
+    customerId int64
+    customerName string(50)
+    customerEmail string(100)
+    customerBalance decimal(17,2)
+    customerStatus string(10)
+}
+
+job CustomerManagement {
+    var customer CustomerRecord
+    var transactionAmount decimal(12,2) = 250.50
+    var newBalance decimal(17,2)
+    var displayMessage string(100)
+
+    step Main {
+        customer.customerId = 1234567890
+        customer.customerName = "John Doe"
+        customer.customerEmail = "john.doe@example.com"
+        customer.customerBalance = 1500.75
+        customer.customerStatus = "ACTIVE"
+
+        step DisplayCustomerInfo()
+        step ProcessTransaction()
+        step UpdateCustomerStatus()
+    }
+
+    step DisplayCustomerInfo {
+        display("Customer ID: " + string(customer.customerId))
+        display("Customer Name: " + customer.customerName)
+        display("Customer Email: " + customer.customerEmail)
+        display("Current Balance: $" + string(customer.customerBalance))
+        display("Status: " + customer.customerStatus)
+    }
+
+    step ProcessTransaction {
+        newBalance = customer.customerBalance + transactionAmount
+        customer.customerBalance = newBalance
+
+        displayMessage = "Transaction processed. New balance: $" + string(customer.customerBalance)
+        display(displayMessage)
+    }
+
+    step UpdateCustomerStatus {
+        if customer.customerBalance < 0 {
+            customer.customerStatus = "OVERDRAFT"
+        } else if customer.customerBalance > 10000 {
+            customer.customerStatus = "PREMIUM"
+        } else {
+            customer.customerStatus = "STANDARD"
+        }
+
+        display("Updated status: " + customer.customerStatus)
+    }
+}

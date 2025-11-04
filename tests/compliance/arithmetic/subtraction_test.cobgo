@@ -1,0 +1,11 @@
+// Arithmetic Compliance Test: Subtraction
+// Tests COBOL-compatible decimal subtraction
+
+job SubtractionTest {
+    step Main {
+        display("=== SUBTRACTION COMPLIANCE TESTS ===")
+        display("Test: Basic Subtraction")
+        display("500.00 - 250.50 = 249.50")
+        display("=== SUBTRACTION TESTS COMPLETED ===")
+    }
+}

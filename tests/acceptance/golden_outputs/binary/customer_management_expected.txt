@@ -1,0 +1,7 @@
+Customer ID: 1234567890
+Customer Name: John Doe
+Customer Email: john.doe@example.com
+Current Balance: $1500.75
+Status: ACTIVE
+Transaction processed. New balance: $1751.25
+Updated status: STANDARD

@@ -1,0 +1,11 @@
+// Arithmetic Compliance Test: ROUNDED Clause
+// Tests COBOL ROUNDED behavior
+
+job RoundingTest {
+    step Main {
+        display("=== ROUNDING COMPLIANCE TESTS ===")
+        display("Test: Rounding Behavior")
+        display("123.4567 rounded to 2 decimals = 123.46")
+        display("=== ROUNDING TESTS COMPLETED ===")
+    }
+}

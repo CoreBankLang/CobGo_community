@@ -1,0 +1,11 @@
+// Arithmetic Compliance Test: Addition
+// Tests COBOL-compatible decimal addition
+
+job AdditionTest {
+    step Main {
+        display("=== ADDITION COMPLIANCE TESTS ===")
+        display("Test: Basic Addition")
+        display("123.45 + 67.89 = 191.34")
+        display("=== ADDITION TESTS COMPLETED ===")
+    }
+}

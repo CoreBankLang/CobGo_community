@@ -1,0 +1,13 @@
+// Generated from COBOL: hello_world.cob
+// Golden dataset for acceptance testing
+
+job HelloWorld {
+    var greetingMessage string(20) = "Hello, World!"
+    var counter int32 = 0
+
+    step Main {
+        display(greetingMessage)
+        counter = counter + 1
+        display("Counter: " + string(counter))
+    }
+}

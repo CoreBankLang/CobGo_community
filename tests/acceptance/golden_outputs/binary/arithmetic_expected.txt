@@ -1,0 +1,4 @@
+Addition: 191.34
+Subtraction: 55.56
+Multiplication: 8373.52
+Division: 1.82

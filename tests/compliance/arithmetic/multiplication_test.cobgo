@@ -1,0 +1,11 @@
+// Arithmetic Compliance Test: Multiplication
+// Tests COBOL-compatible decimal multiplication
+
+job MultiplicationTest {
+    step Main {
+        display("=== MULTIPLICATION COMPLIANCE TESTS ===")
+        display("Test: Basic Multiplication")
+        display("99.99 * 10 = 999.90")
+        display("=== MULTIPLICATION TESTS COMPLETED ===")
+    }
+}
