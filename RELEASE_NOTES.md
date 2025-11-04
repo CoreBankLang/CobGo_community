@@ -306,17 +306,10 @@ See [docs/ROADMAP.md](docs/ROADMAP.md) for detailed roadmap.
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Go Community** - For excellent tooling and ecosystem
-- **COBOL Developers** - For maintaining critical business systems
-- **Open Source Contributors** - For making this project possible
-
----
 
 ## 📞 Support
 
-- **GitHub Issues**: [Report bugs](https://github.com/cobgo/cobgo-community/issues)
+- **GitHub Issues**: [Report bugs](https://github.com/CoreBankLang/CobGo_community/issues)
 - **GitHub Discussions**: [Ask questions](https://github.com/cobgo/cobgo-community/discussions)
 - **Documentation**: [docs/](docs/)
 
@@ -338,4 +331,5 @@ Thank you for using CobGO Community Edition! We're excited to see what you build
 
 **CobGO Community Edition v1.0.0**  
 *Modernizing COBOL for the 21st century*
+
 
