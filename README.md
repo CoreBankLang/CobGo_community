@@ -210,26 +210,9 @@ See [tests/README.md](tests/README.md) for detailed test results and how to run 
 - **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/cobgo/cobgo-community/issues)
 - **Discussions**: Join the conversation on [GitHub Discussions](https://github.com/cobgo/cobgo-community/discussions)
 
-## 🏢 Enterprise Edition
-
-Looking for enterprise features? Check out **CobGO Enterprise Edition** which includes:
-
-- 🔒 **DB2 Integration** - Full EXEC SQL support with parameterized queries
-- 🏦 **CICS Support** - Transaction processing and terminal I/O
-- 📊 **Batch Processing** - JCL parsing and job orchestration
-- 🔐 **Advanced Security** - Encryption, audit trails, compliance frameworks
-- 📋 **Compliance Standards** - SOX, PCI-DSS, GDPR, HIPAA, GLBA, Basel III
-- 🛠️ **Migration Tools** - Assessment, planning, and professional services
-
-Visit [cobgo.com/enterprise](https://cobgo.com/enterprise) for more information.
-
-## 🙏 Acknowledgments
-
-- The Go community for excellent tooling and ecosystem
-- COBOL developers for maintaining critical business systems
-- Open source contributors who make projects like this possible
 
 ---
 
 **CobGO Community Edition** - Modernizing COBOL for the 21st century 🚀
+
 
